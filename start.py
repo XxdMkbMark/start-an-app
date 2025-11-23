@@ -46,7 +46,7 @@ def main():
             sys.exit(1)
 
     else:
-        print(f"[Error] Unknown boot type '{args.type}'. Use 'system' or 'startfile'.")
+        print(f"[Error] Unknown type '{args.type}'. Use 'system' or 'startfile'.")
         sys.exit(1)
 
 if __name__ == "__main__":
